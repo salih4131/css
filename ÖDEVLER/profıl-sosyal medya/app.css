@@ -1,0 +1,243 @@
+/*100% bir kopyası maalesef olmadı*/
+.container {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#sol {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    margin-left: -8vw;
+}
+
+#sag {
+    background-color: rgba(13, 129, 245, 0.589);
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin-bottom: -90vh;
+    margin-right: -8vw;
+    overflow: hidden;
+}
+
+#sagg {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 8vw;
+    height: 16vh;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    margin-right: -88vw;
+    margin-top: 1vh;
+}
+
+#soll {
+    background-color: rgba(76, 160, 243, 0.589);
+    width: 5vw;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    margin-left: -50vw;
+    margin-top: 5vh;
+}
+
+.header {
+    background: linear-gradient(239deg, rgba(2, 0, 36, 1) 0%, rgba(54, 146, 162, 1) 0%, rgba(0, 147, 255, 0.9868989832261029) 60%);
+    width: 26vw;
+    height: 30vh;
+    margin-top: 30px;
+    position: relative;
+}
+
+.arrow a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+.nokta a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+}
+
+#bir {
+    background-color: rgba(81, 190, 253, 0.192);
+    width: 6vw;
+    height: 12vh;
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#iki {
+    background-color: rgb(9, 161, 255);
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#üc {
+    background-color: rgba(90, 170, 219, 0.726);
+    width: 1vw;
+    height: 2vh;
+    position: absolute;
+    right: 130px;
+    top: 60px;
+    border-radius: 50%;
+}
+
+.content {
+    background-color: rgb(246, 246, 246);
+    width: 22vw;
+    height: 28vh;
+    margin: -60px;
+    position: absolute;
+}
+
+#board img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+#foto {
+    color: rgb(77, 223, 174);
+    margin-left: -2vw;
+}
+
+.content-article p {
+    margin-top: -4px;
+    text-align: center;
+}
+
+.content-article p:nth-child(1) {
+    font-size: 20px;
+}
+
+.content-article p:nth-child(2) {
+    margin-top: -18px;
+}
+
+.content-article p:nth-child(3) {
+    word-spacing: 15px;
+    cursor: pointer;
+}
+
+.content-article p:nth-child(4) {
+    padding: 4px;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+#acount {
+    line-height: 46vh;
+    font-size: 14px;
+    margin-left: -12vw;
+}
+
+.main {
+    background-color: rgb(254, 254, 254);
+    width: 26vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.nav {
+    background-color: rgb(246, 246, 246);
+    width: 22vw;
+    height: 28vh;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 3PX;
+    margin-left: -20px;
+}
+
+.nav ul li i {
+    font-size: 16px;
+    color: rgb(153, 185, 153);
+    cursor: pointer;
+}
+
+ #iconone{
+    color: rgb(228, 150, 32);
+}
+
+.nav ul li i:nth-child(2) {
+    color: rgb(136, 214, 18);
+}
+
+.nav ul li i:nth-child(3) {
+    color: palevioletred;
+}
+
+.nav ul li i:nth-child(4) {
+    color: rgb(32, 119, 218);
+}
+
+.nav ul li span {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.nav ul li .ok {
+    float: right;
+    margin-right: -6vw;
+    
+}
+.nav ul li .ok:hover{
+color: gray;
+padding: 2px;
+cursor: pointer;
+}
+
+.privecy {
+    line-height: 117vh;
+    font-size: 14px;
+    margin-left: -10vw;
+}
+
+.footer {
+    background-color: rgb(246, 246, 246);
+    width: 26vw;
+    height: 10vh;
+    margin-bottom: 30px;
+}
+
+.footer i {
+    margin-left: 4vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
